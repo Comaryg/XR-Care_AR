@@ -73,3 +73,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Mis propios objetos comicamente grandes, LO QUE FALTE, LO PASAMOS POR OTRO LADO ENTONCES
+/[Aa]ssets/FBX/model.obj
+/[Aa]ssets/Videos/ToSVertical.mp4

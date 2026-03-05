@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00_MainMenu.unity
+    guid: 6d3a3dcd35f4044479443c846a260821
+  - enabled: 1
+    path: Assets/Scenes/01_Intro.unity
+    guid: 856ef510707d1e84ebba11cede7ca4a9
+  - enabled: 1
+    path: Assets/Scenes/02_SalaDeEspera.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 380ede7b966c16248896dde8452fb130, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2163ea3a56b2a27418fd20a77438b969, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 40b8ccdb982325a43aec70834ae1d26a, type: 2}
+  m_UseUCBPForAssetBundles: 0
