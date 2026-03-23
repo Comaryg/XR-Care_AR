@@ -1398,6 +1398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7361191054324308189}
+  - component: {fileID: 1848887486472569451}
   m_Layer: 0
   m_Name: TrackedLabSala
   m_TagString: Untagged
@@ -1435,6 +1436,19 @@ Transform:
   - {fileID: 7844192620415674503}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1848887486472569451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9051424372514892401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7922a605492d34f840548a9c54a804, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameObjectTracker
+  _objectToTrack: {fileID: 9051424372514892401}
 --- !u!1001 &186562549891657744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1797,7 +1811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cda96fa07cd2fba49ac4ae9ae7772913, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
